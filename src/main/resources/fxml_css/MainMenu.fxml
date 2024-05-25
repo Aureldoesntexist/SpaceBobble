@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.Scene?>
+<?import java.net.URL?>
+<Scene xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16"
+       fx:controller="com.bobble.spacebobble.controller.MenuController">
+    <AnchorPane prefHeight="720.0" prefWidth="1280.0" styleClass="backgroundBase">
+        <GridPane alignment="CENTER" layoutX="13.0" layoutY="12.0" prefHeight="720.0" prefWidth="1280.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="162.78" minHeight="10.0" prefHeight="93.2"
+                                vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="252.0" minHeight="10.0" prefHeight="244.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <ImageView blendMode="ADD" fitHeight="175.0" fitWidth="275.0" pickOnBounds="true" preserveRatio="true"
+                       rotate="-13.0">
+                <Image url="@../asset/sprites/bigbobble.png"/>
+                <GridPane.margin>
+                    <Insets bottom="50.0" left="150.0"/>
+                </GridPane.margin>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="100.0" prefWidth="700.0"
+                   styleClass="title" text="SPACE BOBBLE" textAlignment="CENTER" GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER" stylesheets="@style.css">
+                <GridPane.margin>
+                    <Insets left="50.0"/>
+                </GridPane.margin>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="286.0" prefWidth="640.0" spacing="10.0" GridPane.rowIndex="1">
+                <Button onAction="#solo" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="10.0"
+                        mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="buttonMenu" text="Solo"
+                        textAlignment="CENTER"/>
+                <Button onAction="#vs" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="10.0"
+                        mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="buttonMenu"
+                        text="Affrontement"
+                        textAlignment="CENTER"/>
+                <Button onAction="#coop" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="10.0"
+                        mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="buttonMenu"
+                        text="Coopératif"
+                        textAlignment="CENTER"/>
+                <Button onAction="#leaderboard" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="10.0"
+                        mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" styleClass="buttonMenu"
+                        text="Leaderboard"
+                        textAlignment="CENTER"/>
+            </HBox>
+        </GridPane>
+    </AnchorPane>
+    <stylesheets>
+        <URL value="@style.css"/>
+    </stylesheets>
+</Scene>

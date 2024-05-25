@@ -1,0 +1,153 @@
+.buttonMenu {
+    -fx-font-family: "Consolas";
+    -fx-font-weight: 100;
+    -fx-font-size: 25px;
+    -fx-background-color: None;
+    -fx-effect: dropshadow(gaussian, rgb(255, 0, 242), 10, 0.3, 0, 0);
+    -fx-transition: all 956ms;
+    -fx-cursor: hand;
+    -fx-padding: 5px;
+    -fx-text-transform: uppercase;
+    -fx-text-fill: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 0, 242));
+}
+
+.buttonMenu:hover {
+    -fx-transition: all 956ms;
+    -fx-text-fill: #00ff40;
+    -fx-effect: dropshadow(gaussian, rgb(23, 185, 0), 10, 0.3, 0, 0);
+}
+
+.backgroundBase {
+    -fx-background-image: url("../asset/background/menu.png");
+}
+
+.title {
+    -fx-font-family: "Snap ITC";
+    -fx-effect: dropshadow(gaussian, rgb(255, 0, 242), 15, 0.2, 0, 0);
+    -fx-font-size: 72px;
+    -fx-text-fill: linear-gradient(to left, rgb(255, 255, 255), rgb(255, 0, 242));
+}
+
+.imageBobble {
+    -fx-start-margin: 400px;
+}
+
+.titleChooser {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: #00ff40;
+    -fx-effect: dropshadow(gaussian, rgb(23, 185, 0), 10, 0.3, 0, 0);
+    -fx-font-weight: 100;
+    -fx-font-size: 40px;
+}
+
+
+.warning {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: #ff0000;
+    -fx-font-size: 25px;
+    -fx-effect: dropshadow(gaussian, rgb(185, 0, 0), 10, 0.3, 0, 0);
+}
+
+.listPlayers {
+    -fx-font-family: "Consolas";
+    -fx-font-weight: 100;
+    -fx-text-fill: #ffea00;
+    -fx-font-size: 25px;
+    -fx-effect: dropshadow(gaussian, rgb(255, 215, 0), 10, 0.3, 0, 0);
+}
+
+.leaderBox {
+    -fx-background-color: rgba(136, 0, 134, 0.34);
+}
+
+.titleLeader {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: #00ff40;
+    -fx-effect: dropshadow(gaussian, rgb(23, 185, 0), 15, 0.3, 0, 0);
+    -fx-font-weight: 500;
+    -fx-font-size: 45px;
+}
+
+.backMenu {
+    -fx-font-family: "Consolas";
+    -fx-font-weight: 100;
+    -fx-font-size: 25px;
+    -fx-background-color: None;
+    -fx-effect: dropshadow(gaussian, rgb(23, 185, 0), 10, 0.3, 0, 0);
+    -fx-transition: all 956ms;
+    -fx-cursor: hand;
+    -fx-padding: 5px;
+    -fx-text-transform: uppercase;
+    -fx-text-fill: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 255, 64));
+}
+
+.backMenu:hover {
+    -fx-transition: all 956ms;
+    -fx-text-fill: #FF00F2FF;
+    -fx-effect: dropshadow(gaussian, rgb(255, 82, 242), 10, 0.3, 0, 0);
+}
+
+.bgChooser {
+    -fx-background-image: url("../asset/background/chooser.png");
+}
+
+
+.labelScore {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: #00ff40;
+    -fx-effect: dropshadow(gaussian, rgb(23, 185, 0), 15, 0.3, 0, 0);
+    -fx-font-size: 25px;
+}
+
+.highscore {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: #ffdd54;
+    -fx-font-size: 25px;
+    -fx-effect: dropshadow(gaussian, rgb(255, 215, 0), 10, 0.3, 0, 0);
+}
+
+.lives {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: #ff5454;
+    -fx-font-size: 25px;
+    -fx-effect: dropshadow(gaussian, rgb(255, 0, 0), 10, 0.3, 0, 0);
+
+}
+
+.currentLevel {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: #5470ff;
+    -fx-font-size: 25px;
+    -fx-effect: dropshadow(gaussian, rgb(0, 13, 255), 10, 0.3, 0, 0);
+}
+
+.gameOver {
+    -fx-background-image: url("../asset/background/gameOver.png");
+}
+
+.gameFinished {
+    -fx-background-image: url("../asset/background/gameFinished.png");
+}
+
+.gameOverLabel {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: #ff0000;
+    -fx-font-size: 40px;
+    -fx-effect: dropshadow(gaussian, rgb(185, 0, 0), 10, 0.3, 0, 0);
+}
+
+.gameFinishedLabel {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: #00ff40;
+    -fx-effect: dropshadow(gaussian, rgb(23, 185, 0), 10, 0.3, 0, 0);
+    -fx-font-size: 40px;
+}
+
+.displayScore {
+    -fx-font-family: "Consolas";
+    -fx-text-fill: #ffdd54;
+    -fx-font-weight: 100;
+    -fx-font-size: 25px;
+    -fx-effect: dropshadow(gaussian, rgb(255, 215, 0), 10, 0.3, 0, 0);
+}
+
